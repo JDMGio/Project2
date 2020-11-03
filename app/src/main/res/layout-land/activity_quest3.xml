@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.project2.quest3">
+
+    <TextView
+        android:id="@+id/q3q"
+        android:layout_width="405dp"
+        android:layout_height="75dp"
+        android:text="@string/question3"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.204" />
+
+    <TextView
+        android:id="@+id/q3"
+        android:layout_width="183dp"
+        android:layout_height="55dp"
+        android:text="@string/quest3"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005" />
+
+    <RadioGroup
+        android:id="@+id/rgq3"
+        android:layout_width="303dp"
+        android:layout_height="167dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.639">
+
+        <RadioButton
+            android:id="@+id/q3c1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/season1" />
+
+        <RadioButton
+            android:id="@+id/q3c2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/season2" />
+
+        <RadioButton
+            android:id="@+id/q3c3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/season3" />
+
+        <RadioButton
+            android:id="@+id/q3c4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/season4" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submitq3"
+        android:layout_width="176dp"
+        android:layout_height="57dp"
+        android:text="@string/submit"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
